@@ -1,5 +1,4 @@
 import React from 'react';
-import Menu from "./MenuApi";
 
 const Navbar = ({filterItem,menuList}) => {
     return (
@@ -12,6 +11,7 @@ const Navbar = ({filterItem,menuList}) => {
                         })
                     }
                 </div>
+
             </nav>
         </>
     );
